@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    border: none;
+}
+.container {
+  width: 80%;
+}
+#header {
+}
+.menu {
+  height: 50px;
+  background-color: rgb(170, 124, 39) ;
+   margin: 0 auto;
+ 
+}
+.menu ul {
+    display: flex;
+}
+.menu ul li {
+    list-style-type: none;
+    margin-left: 80px;
+    margin-top:15px ;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight:500 ;
+}
+.menu a:hover {
+color: orange;
+}
+.first-image {
+    display: flex;
+   margin-left: 80px;
+}
+.first-image-paragraph {
+    width: 80%;
+    margin-left: 80px;
+    padding-top: 10px;
+    background: rgb(202, 200, 196);
+}
+.first-image-paragraph p {
+    font-size: 18px ;
+    padding: 20px;
+}
+.three-para {
+    height: 350px;
+    display: flex;
+    box-sizing: border-box;
+   
+    justify-content: space-between;
+}
+.three-para  p {
+    padding: 30px;
+}
+.paragraph-section {
+    margin: 25px 25px 25px;
+    flex-basis: 30%;
+    justify-content: space-between;
+    background: white;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.about-us {
+    display: flex;
+    width: 80%;
+    align-content: center;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.imageglobe {
+    flex-basis: 30% ;
+    margin-left: 80px;
+    margin-top:80px ;
+}
+
+.about-us-info {
+    flex-basis: 40% ;
+    margin-left:200px ;
+    margin: 25px 25px 25px ;
+    justify-content: space-between;
+    background: white;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 30px;
+}
+.about-us-info h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.managment {
+    display: flex;
+    width: 80%;
+}
+.images {
+    margin-left: 80px;
+}
+.form  {
+    background-image: url(..//assignment2.html/image/img3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   width: 40%;
+   margin-left: 80px;
+}
+ .register {
+     max-width: 200px;
+     background: rgba(0,0,0,0.8);
+     padding: 40px;
+     color: #fff;
+    margin: 0 auto;
+
+ }
+ .form h3 {
+     text-align:center;
+     margin-top: 10px;
+ }
+ input {
+     width: 100%;
+     margin-bottom: 10px;
+     outline: none;
+     background: rgba(0,0,0,0.10);
+     color: white;
+     border-bottom: 1px dotted;
+ }
+ button {
+     background:red;
+     color: black;
+     scroll-padding: 10px;
+     border-radius: 30px;
+     margin-top: 30px;
+ }
+ #footer {
+    background: cadetblue;
+     width: 80%;
+     height: 300px;
+     margin-top: 20px;
+ }
+ .footer-top {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+    background: turquoise;
+ }
+ .footer-top a {
+     list-style-type: none;
+     text-decoration:none ;
+     color: black;
+     margin-left: 40px;
+ }
+  a:hover {
+     color:blue;
+     transition: 0.3s;
+ }
+ .social-media {
+     width: 50%;
+     float: right;
+     padding: 20px;
+     margin-top:20px ;
+ }
+ .social-media  h6 {
+     padding: 5px;
+     font-size: 20px ;
+ }
